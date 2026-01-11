@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find The Number</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <h1 id="title">Find The Number</h1>
+    <section id="game">
+      <p id="rules">
+        Nous avons sélectionné un nombre aléatoire entre 1 et 100. Essayez de le <br>
+        deviner en 10 tentatives ou moins. Nous vous indiquerons si votre <br>
+        proposition est trop grande ou trop petite.
+      </p>
+      <label for="guessField">Entrez une proposition&nbsp;: </label>
+      <input type="number" min="1" max="100" required id="guessField" class="guessField"></input>
+      <input type="submit" value="Go" class="guessSubmit">
+    </section>
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+body{
+    background-color: blueviolet;
+}
+
+h1{
+    font-family: "Rubik Puddles", system-ui;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h1{
+    margin:0 auto;
+    margin-top: 1rem;
+    padding: 3rem;
+    width: 20rem;
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+@keyframes neonPulse {
+    0% {
+        text-shadow:
+            0 0 5px #00ffff,
+            0 0 10px #00ffff,
+            0 0 20px #00ffff,
+            0 0 40px #00ffff;
+    }
+    50% {
+        text-shadow:
+            0 0 10px #00ffff,
+            0 0 20px #00ffff,
+            0 0 40px #00ffff,
+            0 0 80px #00ffff;
+    }
+    100% {
+        text-shadow:
+            0 0 5px #00ffff,
+            0 0 10px #00ffff,
+            0 0 20px #00ffff,
+            0 0 40px #00ffff;
+    }
+}
+
+#title {
+    animation: neonPulse 3s infinite alternate;
+}
+
+/* Rules */
+
+#rules{
+    font-family: "DynaPuff", system-ui;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: aliceblue;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#game{
+    font-family: "DynaPuff", system-ui;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: aliceblue;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#game label{
+    text-shadow: 0 0 5px #00ffff;
+}
+
+.resultParas{
+    font-family: "DynaPuff", system-ui;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: aliceblue;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.resultParas p{
+    margin: 0.4rem;
+}
+
+button{
+    margin: auto;
+}
