@@ -23,6 +23,7 @@ function checkGuess() {
         lastResult.textContent = "Gagné !";
         lastResult.style.color = "#09ff00";
         lastResult.style.textShadow = "0 0 5px #00ffff;";
+        lowOrHi.textContent = "";
         setGameOver();
     }
     else if(guessCount >= 10){
